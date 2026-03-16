@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolkata Fatafat Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .result {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .numbers {
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Kolkata Fatafat Result</h1>
+        <p>Latest Results</p>
+    </div>
+    <div class="result">
+        <div class="numbers">Result: 1, 2, 3, 4, 5</div>
+    </div>
+    <script>
+        // Example of possible AJAX request to fetch results
+        function fetchResults() {
+            // Normally, you would make an AJAX call to fetch data
+            // Here we're just simulating it with static data
+            let results = [1, 2, 3, 4, 5];
+            document.querySelector('.numbers').innerText = 'Result: ' + results.join(', ');
+        }
+        fetchResults(); // Call the function to display results on page load
+    </script>
+</body>
+</html>
